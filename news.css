@@ -1,0 +1,96 @@
+body {
+    background-image:url(backround/main_backround.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content:space-between;
+    background:#000000;
+    padding:auto;
+}
+h1{
+  text-decoration: underline;
+  text-align:left;
+  margin-left: 15px;
+  color: #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #cb10c2;
+    
+}
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    overflow: hidden;
+    float: right;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #cb10c2;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #cb10c2;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #cb10c2;
+    color:#010101;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+.news {
+    margin: 20px;
+}
+
+article {
+  background-image: url(backround/backroundcard.jpg);
+  background-size: cover;
+    text-align: justify;
+    border: 1px  #cb10c2;
+    border-width: 5px;
+    border-style:double;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+article p{ 
+  color: #000000;
+  font-family: sans-serif;
+}
+footer {
+  text-align: right;
+  background:#000000;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0%;
+}
+footer a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ddd;
+  text-align: right;
+  size: 50px;
+}

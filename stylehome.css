@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Rubik+Glitch&display=swap');
+header {
+    display: flex;
+    justify-content:space-between;
+    background:#000000;
+    padding: auto;
+}
+body{
+    background-image: url(backround/main_backround.jpg) ;
+    background-size:cover;
+    background-position: center;
+    font-family: 'Kalam', cursive;
+    font-size: 14px;
+    color: #000000;
+}
+h1{
+    border-top: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    margin-left: auto;
+    color: #f9f9f9;
+}
+h5{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  background-color: #cb10c2;
+  margin: top 20px; 
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 50px;
+  text-align: center;
+}
+h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  text-align: center;
+  text-decoration: underline;
+  border-radius: 50px;
+}
+nav{
+  display: flex;
+  text-align: right;
+}
+
+h2{
+  text-align: left;
+  padding-top: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: solid;
+  color: #ddd;
+}
+body, html {
+    height: 100%;
+}
+ 
+.form-control{
+    width: 350px;
+}
+img.d-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav {
+  display: flex;
+  justify-content:space-between;
+  background-color: #000000;
+  overflow: hidden;
+}
+.navright{
+  top: 0;
+position: fixed;
+width: 100%;
+z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #cb10c2;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #cb10c2;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #cb10c2;
+  color:#010101;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
